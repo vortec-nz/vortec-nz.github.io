@@ -1057,16 +1057,8 @@
 		background-image: url("../images/banner.jpg");
 		background-position: center top;
 		background-size: cover;
-		background-repeat: no-repeat;
 		line-height: 1.75;
 		text-align: center;
-	}
-		/* For width 700px and larger: */
-	@media only screen and (min-width: 700px) {
-		#banner { 
-			background-size: contain; 
-			background-repeat: no-repeat;
-		}
 	}
 
 		#banner :last-child {
